@@ -10,6 +10,7 @@
  */
 class Solution {
     public int pairSum(ListNode head) {
+        //self -brute force O(3n/2) TC And O(n) space complexity
         List<Integer> l=new ArrayList<>();
         ListNode temp=head;
         while(temp!=null){
