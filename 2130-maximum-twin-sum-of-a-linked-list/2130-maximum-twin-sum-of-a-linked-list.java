@@ -10,20 +10,25 @@
  */
 class Solution {
     public int pairSum(ListNode head) {
-        //self -brute force O(3n/2) TC And O(n) space complexity
-        List<Integer> l=new ArrayList<>();
-        ListNode temp=head;
-        while(temp!=null){
-            l.add(temp.val);
-            temp=temp.next;
+        ListNode slow=head;
+        ListNode fast=head;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
         }
-        int sum=0;
+        ListNode prev=null;
+        while(slow!=null){
+            ListNode temp=slow.next;
+            slow.next=prev;
+            prev=slow;
+            slow=temp;
+        }
         int maxSum=0;
-        for(int i=0;i<l.size();i++){
-            sum=l.get(i)+l.get(l.size()-i-1);
-            maxSum=Math.max(maxSum,sum);
+        while(prev!=null){
+            maxSum=Math.max(maxSum,head.val+prev.val);
+            head=head.next;
+            prev=prev.next;
         }
         return maxSum;
-
     }
 }
