@@ -19,7 +19,7 @@ class Solution {
         }
         int sum=0;
         int maxSum=0;
-        for(int i=0;i<l.size()-1;i++){
+        for(int i=0;i<l.size();i++){
             sum=l.get(i)+l.get(l.size()-i-1);
             maxSum=Math.max(maxSum,sum);
         }
