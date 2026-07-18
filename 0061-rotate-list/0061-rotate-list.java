@@ -21,12 +21,12 @@ class Solution {
         curr=curr.next;
         len++;
         }
-        curr.next=head;//not it is a circular linked list
         k=k%len;
         if(k==0){ //no rotations
-            curr.next=null; //if no rotation toh circular linked list break 
             return head;
         }
+
+        curr.next=head;//now it is a circular linked list
         ListNode newCurr=head;
         int jumps=len-k;
         for(int i=1;i<jumps;i++){
