@@ -10,20 +10,49 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-        //brute force
-        ArrayList<Integer> list=new ArrayList<>();
-        ListNode curr=head;
-        while(curr!=null){
-            list.add(curr.val);
-            curr=curr.next;
-        }
-        Collections.sort(list);
-        curr=head;
-        int i=0;
-        while(curr!=null){
-            curr.val=list.get(i++);
-            curr=curr.next;
-        }
-    return head;
+      if(head==null || head.next==null){
+        return head;
+      }
+      ListNode slow=head;
+      ListNode fast=head.next;
+      //middle node find
+      while(fast!=null && fast.next!=null){
+        slow=slow.next;
+        fast=fast.next.next;
+      }
+      //4>2>1>3 --> 4->2->null and 1->3
+      ListNode second=slow.next;
+      slow.next=null;
+
+    //   now recursive call ->we will call again the sorlist func to again sort 4 and 2 and 1 and 3
+    ListNode left=sortList(head);//head for list1
+    ListNode right=sortList(second);
+    return merge(left,right);
+
     }
-}
+    // MERGE FUNCTION
+    private ListNode merge(ListNode l1,ListNode l2){
+        ListNode dummy=new ListNode(0);
+        ListNode curr=dummy;
+        while(l1!=null && l2!=null){
+            if(l1.val<=l2.val){
+                curr.next=l1;
+                l1=l1.next;
+            }else{
+                curr.next=l2;
+                l2=l2.next;
+            }
+            curr=curr.next;
+        }
+
+        if(l1!=null){
+            curr.next=l1;
+        }
+        if(l2!=null){
+            curr.next=l2;
+        }
+        return dummy.next;
+        }
+    }
+
+    
