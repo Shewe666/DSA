@@ -10,6 +10,7 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
+        //brute force
         ArrayList<Integer> list=new ArrayList<>();
         ListNode curr=head;
         while(curr!=null){
