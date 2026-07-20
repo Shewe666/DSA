@@ -10,33 +10,31 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        //Brute force approach
-        ArrayList<Integer>list=new ArrayList<>();
-        if(head.next==null){
-            return;
+    if(head.next==null||head.next.next==null){
+        return;
+    }
+    ArrayList<ListNode> list=new ArrayList<>();
+    ListNode curr=head;
+
+    while(curr!=null){
+        list.add(curr);
+        curr=curr.next;
+    }
+    int left=0;
+    int right=list.size()-1;
+    while(left<right){
+        list.get(left).next=list.get(right);
+        left++;
+        //for even elememts this condition needs to be between the left and the right 
+
+        if(left==right){
+            break;
         }
-        ListNode temp=head;
-        while(temp!=null){
-            list.add(temp.val);
-            temp=temp.next;
-        }
-        ArrayList<Integer> ans= new ArrayList<>();
-        int left =0;
-        int right=list.size()-1;
-        while(left<=right){
-            ans.add(list.get(left));
-            ans.add(list.get(right));
-            left++;
-            right--;
-        }
-        // if (left == right) {
-        //     ans.add(list.get(left));
-        // }
-        temp=head;
-        int index=0;
-        while(temp!=null){
-           temp.val=ans.get(index++);
-           temp=temp.next;
-        }
+        list.get(right).next=list.get(left);
+        right--;
+
+    }
+    //last node that is left must be connected with null;
+    list.get(left).next=null;
     }
 }
