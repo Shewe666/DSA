@@ -56,8 +56,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Shewe666/DSA/tree/master/0148-sort-list) |
+| [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
 ## Merge Sort
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Shewe666/DSA/tree/master/0148-sort-list) |
+## Hash Table
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
