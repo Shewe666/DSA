@@ -71,15 +71,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Shewe666/DSA/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/Shewe666/DSA/tree/master/0012-integer-to-roman) |
 | [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/Shewe666/DSA/tree/master/0012-integer-to-roman) |
 | [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
 ## Math
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Shewe666/DSA/tree/master/0002-add-two-numbers) |
+| [0012-integer-to-roman](https://github.com/Shewe666/DSA/tree/master/0012-integer-to-roman) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 ## Array
 |  |
