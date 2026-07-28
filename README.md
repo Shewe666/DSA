@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/Shewe666/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Shewe666/DSA/tree/master/0503-next-greater-element-ii) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Shewe666/DSA/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Shewe666/DSA/tree/master/2487-remove-nodes-from-linked-list) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shewe666/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0217-contains-duplicate](https://github.com/Shewe666/DSA/tree/master/0217-contains-duplicate) |
 | [0496-next-greater-element-i](https://github.com/Shewe666/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Shewe666/DSA/tree/master/0503-next-greater-element-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shewe666/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/Shewe666/DSA/tree/master/0645-set-mismatch) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Shewe666/DSA/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Shewe666/DSA/tree/master/0503-next-greater-element-ii) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Shewe666/DSA/tree/master/2487-remove-nodes-from-linked-list) |
 ## Queue
