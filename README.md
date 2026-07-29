@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Shewe666/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shewe666/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Shewe666/DSA/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/Shewe666/DSA/tree/master/0901-online-stock-span) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Shewe666/DSA/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Shewe666/DSA/tree/master/2487-remove-nodes-from-linked-list) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0707-design-linked-list](https://github.com/Shewe666/DSA/tree/master/0707-design-linked-list) |
+| [0901-online-stock-span](https://github.com/Shewe666/DSA/tree/master/0901-online-stock-span) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Shewe666/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shewe666/DSA/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Shewe666/DSA/tree/master/0739-daily-temperatures) |
+| [0901-online-stock-span](https://github.com/Shewe666/DSA/tree/master/0901-online-stock-span) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Shewe666/DSA/tree/master/2487-remove-nodes-from-linked-list) |
 ## Queue
@@ -163,4 +166,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+## Data Stream
+|  |
+| ------- |
+| [0901-online-stock-span](https://github.com/Shewe666/DSA/tree/master/0901-online-stock-span) |
 <!---LeetCode Topics End-->
