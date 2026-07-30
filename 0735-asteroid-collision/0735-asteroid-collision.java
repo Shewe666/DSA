@@ -1,43 +1,29 @@
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
-        //brute approach..
-        ArrayList<Integer> list= new ArrayList<>();
-        for(int num:asteroids){
-            list.add(num);
+       //optimized approach
+       Stack<Integer> st= new Stack<>();
+       int n = asteroids.length;
+       for(int i =0;i<n;i++){
+        int a=asteroids[i];
+        while(!st.isEmpty() && st.peek()<-a && st.peek()>0){
+            st.pop();
         }
-        int i=0;
-        while(i<list.size()-1)//-1 coz we will run till i+1 
-        {
-            int a=list.get(i);
-            int b=list.get(i+1);
-            if(a>0 && b<0){
-                //three conditions to check
-                if(a>-b){
-                    list.remove(i+1);
-                }
-                else if(a<-b){
-                    list.remove(i);
-                    if(i>0){
-                    i--;
-                    }
-                }
-                else{
-                    list.remove(i+1);
-                    list.remove(i);
-                    if(i>0){
-                        i--;
-                    }
-                }
-            }
-            else{
-                i++;
+        //condition when a is equal or less thn the less than the st.peek() value;
+        if(!st.isEmpty() && a<0 && st.peek()>0){
+            if(st.peek()==-a)
+            {
+                st.pop();
             }
         }
-        
-        int[]ans=new int[list.size()];
-        for(int j =0;j<list.size();j++){
-            ans[j]=list.get(j);
+        else{
+            st.push(a);
         }
-        return ans;
+      
+       }
+       int[] ans= new int[st.size()];
+       for(int i=st.size()-1;i>=0;i--){
+        ans[i]=st.pop();
+       }
+       return ans;
     }
 }
