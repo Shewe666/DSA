@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Shewe666/DSA/tree/master/0143-reorder-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0496-next-greater-element-i](https://github.com/Shewe666/DSA/tree/master/0496-next-greater-element-i) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Shewe666/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Shewe666/DSA/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/Shewe666/DSA/tree/master/0043-multiply-strings) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shewe666/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Shewe666/DSA/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/Shewe666/DSA/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shewe666/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0217-contains-duplicate](https://github.com/Shewe666/DSA/tree/master/0217-contains-duplicate) |
 | [0496-next-greater-element-i](https://github.com/Shewe666/DSA/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Shewe666/DSA/tree/master/0503-next-greater-element-ii) |
