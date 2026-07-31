@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0143-reorder-list](https://github.com/Shewe666/DSA/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Shewe666/DSA/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/Shewe666/DSA/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/Shewe666/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/Shewe666/DSA/tree/master/0143-reorder-list) |
+| [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Shewe666/DSA/tree/master/0394-decode-string) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Shewe666/DSA/tree/master/2487-remove-nodes-from-linked-list) |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Shewe666/DSA/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Shewe666/DSA/tree/master/0014-longest-common-prefix) |
 | [0043-multiply-strings](https://github.com/Shewe666/DSA/tree/master/0043-multiply-strings) |
+| [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shewe666/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Shewe666/DSA/tree/master/0387-first-unique-character-in-a-string) |
@@ -120,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Shewe666/DSA/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/Shewe666/DSA/tree/master/0043-multiply-strings) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shewe666/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
