@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shewe666/DSA/tree/master/0628-maximum-product-of-three-numbers) |
+| [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Shewe666/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Array
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/Shewe666/DSA/tree/master/0645-set-mismatch) |
 | [0735-asteroid-collision](https://github.com/Shewe666/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Shewe666/DSA/tree/master/0739-daily-temperatures) |
+| [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/Shewe666/DSA/tree/master/1470-shuffle-the-array) |
@@ -210,8 +212,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 ## Game Theory
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
