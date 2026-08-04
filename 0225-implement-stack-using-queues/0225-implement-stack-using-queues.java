@@ -6,7 +6,8 @@ class MyStack {
         q1=new LinkedList<>();
         q2=new LinkedList<>();
     }
-    
+    //here the push operaition alone will take O(n) time complexity ..
+
     public void push(int x) {
       q2.offer(x);
       while(!q1.isEmpty()){
