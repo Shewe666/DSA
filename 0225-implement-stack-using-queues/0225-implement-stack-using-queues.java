@@ -17,8 +17,7 @@ class MyStack {
     }
     
     public int pop() {
-       int temp= q1.poll();
-       return temp;
+      return q1.poll();
     }
     
     public int top() {
