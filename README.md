@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Shewe666/DSA/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
+| [0509-fibonacci-number](https://github.com/Shewe666/DSA/tree/master/0509-fibonacci-number) |
 | [2487-remove-nodes-from-linked-list](https://github.com/Shewe666/DSA/tree/master/2487-remove-nodes-from-linked-list) |
 ## Design
 |  |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
+| [0509-fibonacci-number](https://github.com/Shewe666/DSA/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shewe666/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
@@ -231,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Shewe666/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
+| [0509-fibonacci-number](https://github.com/Shewe666/DSA/tree/master/0509-fibonacci-number) |
 | [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 ## Game Theory
 |  |
@@ -242,4 +245,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0032-longest-valid-parentheses](https://github.com/Shewe666/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0856-score-of-parentheses](https://github.com/Shewe666/DSA/tree/master/0856-score-of-parentheses) |
+## Memoization
+|  |
+| ------- |
+| [0509-fibonacci-number](https://github.com/Shewe666/DSA/tree/master/0509-fibonacci-number) |
 <!---LeetCode Topics End-->
