@@ -15,20 +15,28 @@
  */
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        //DFS CODE FOR BFS TRAVERSAL 
-        List<List<Integer>> ans = new ArrayList<>();
-        dfs(root,0,ans);
-        return ans;
+//BREADTH FIRST SEARCH TRAVERSAL
+List<List<Integer>> ans = new ArrayList<>();
+if( root == null){
+    return ans;
+}
+Queue<TreeNode> q = new LinkedList<>();
+q.offer(root);
+while(!q.isEmpty()){
+    int size=q.size();
+    List<Integer> array = new ArrayList<>();
+    for(int i =0;i< size ;i++){
+        TreeNode node = q.poll();
+        array.add(node.val);
+        if( node.left != null){
+            q.offer(node.left);
+        }
+        if( node.right != null){
+            q.offer(node.right);
+        }
     }
-    public void dfs(TreeNode root, int level, List<List<Integer>> ans){
-        if( root == null){
-            return;
-        }
-        if( level == ans.size()){
-            ans.add(new ArrayList<>());
-        }
-        ans.get(level).add(root.val);
-        dfs(root.left, level+1, ans);
-        dfs(root.right, level+1, ans);
+    ans.add(array);
+}
+return ans;
     }
 }
