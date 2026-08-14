@@ -15,26 +15,25 @@
  */
 class Solution {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        if( root == null){
+        if( root == null){ //not for the initial root check but for the recursive check 
             return false;
         }
-        if(sameTree(root,subRoot)){
+        if(isSameTree(root,subRoot)){
             return true;
         }
-        return isSubtree(root.left,subRoot)|| isSubtree(root.right,subRoot);
-    }
-    private boolean sameTree(TreeNode p, TreeNode q){
-        if(p == null && q == null){
-            return true;
-        }
-        if( p == null || q == null){
-            return false;
-        }
-       
-       if( p.val != q.val){
-        return false;
-       }
 
-       return sameTree(p.left , q.left) && sameTree(p.right , q.right);
+        return isSubtree(root.left,subRoot) || isSubtree(root.right , subRoot);
+    }
+    private boolean isSameTree( TreeNode p , TreeNode q){
+        if( p == null && q == null){
+            return true;
+        }
+        if( p == null || q == null){// if any one of the tree does not exist
+            return false; 
+        }
+        if( p.val != q.val){
+            return false;
+        }
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
