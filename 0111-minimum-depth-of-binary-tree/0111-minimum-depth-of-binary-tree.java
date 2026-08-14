@@ -15,19 +15,29 @@
  */
 class Solution {
     public int minDepth(TreeNode root) {
-        return height(root);
-    }
-    private int height( TreeNode root){
         if( root == null){
             return 0;
         }
-        if(root.left == null){
-        return height(root.right)+1;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        int depth = 1;
+        while(!q.isEmpty()){
+            int size = q.size();
+            for( int i = 0 ;i < size ; i++){
+            TreeNode node = q.poll();
+            //first leaf node finding condition 
+            if(node.left == null && node.right == null){
+                return depth;
+            }
+            if( node.left != null){
+                q.offer(node.left);
+            }
+            if(node.right!=null){
+                q.offer(node.right);
+            }
         }
-        if( root.right ==  null){
-        return height(root.left)+1;
-        }
-        
-        return Math.min(height(root.left),height(root.right))+1;
+        depth ++;
     }
+    return 0;
     }
+}
