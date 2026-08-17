@@ -15,13 +15,14 @@
  */
 class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {
-        if(root == null){
+        if( root == null){
             return false;
         }
-        //checking if the current node is leafe node or not 
-        if( root.left == null && root.right == null){
-            return root.val == targetSum;
+        if(root.left==null && root.right == null){
+            if( targetSum == root.val){
+                return true;
+            }
         }
-        return hasPathSum(root.left, targetSum-root.val) || hasPathSum(root.right, targetSum- root.val);
+        return hasPathSum(root.left,targetSum-root.val) ||hasPathSum(root.right,targetSum-root.val);
     }
 }
