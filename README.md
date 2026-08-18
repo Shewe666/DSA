@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/Shewe666/DSA/tree/master/0645-set-mismatch) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Shewe666/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Shewe666/DSA/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## String
 |  |
 | ------- |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/Shewe666/DSA/tree/master/1470-shuffle-the-array) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Shewe666/DSA/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Monotonic Stack
 |  |
 | ------- |
