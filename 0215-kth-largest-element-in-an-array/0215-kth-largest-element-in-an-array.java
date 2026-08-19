@@ -7,20 +7,6 @@ class Solution {
                 pq.poll();
             }
         }
-        int [] res = new int[k];
-        for(int i = 0 ; i < k ; i++){
-            res[i]=pq.poll();
-        }
-        int max = res[0];
-        int smax=res[0];
-        for(int i = 0 ; i < k ; i++){
-            if(res[i]>max){
-                max = res[i];
-            }
-           else if( res[i]<max &&  res[i]>smax){
-            smax = res[i];
-           }
-        }
-        return smax;
+        return pq.peek();
    }
 }
