@@ -5,10 +5,13 @@ class Solution {
         for(String word: words){
         map.put(word, map.getOrDefault(word, 0)+1);
         }
+        //worst -> best element insert logic in pq
         PriorityQueue<String> pq = new PriorityQueue<>((a,b)->{
+            // Lower frequency = higher priority to remove
             if(!map.get(a).equals(map.get(b))){
                 return map.get(a)-map.get(b);
             }
+             // lexicographically bigger = higher priority to remove
             return  b.compareTo(a);
     });
 
@@ -19,18 +22,12 @@ class Solution {
             }
         }
         int size = pq.size();
-        for(int i = 0 ; i <k ; i++){
-            li.add(pq.poll());
+      // best -> worst  without sorting , just with the reverse loop
+        String[] ans = new String[k];
+        for(int i = k-1 ; i >=0; i--){
+            ans[i]=pq.poll();
         }
-         li.sort((a, b) -> {
-
-            if (!map.get(a).equals(map.get(b))) {
-                return map.get(b) - map.get(a);
-            }
-
-            return a.compareTo(b);
-        });
-        return li;
         
+        return Arrays.asList(ans);
     }
 }
