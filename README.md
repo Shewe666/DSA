@@ -103,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Shewe666/DSA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Shewe666/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Shewe666/DSA/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Shewe666/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Shewe666/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shewe666/DSA/tree/master/0628-maximum-product-of-three-numbers) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Shewe666/DSA/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/Shewe666/DSA/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Shewe666/DSA/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Shewe666/DSA/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Shewe666/DSA/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Shewe666/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Shewe666/DSA/tree/master/0387-first-unique-character-in-a-string) |
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Shewe666/DSA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Shewe666/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Shewe666/DSA/tree/master/0217-contains-duplicate) |
+| [0229-majority-element-ii](https://github.com/Shewe666/DSA/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Shewe666/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/Shewe666/DSA/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
@@ -219,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Shewe666/DSA/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Shewe666/DSA/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Shewe666/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/Shewe666/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0692-top-k-frequent-words](https://github.com/Shewe666/DSA/tree/master/0692-top-k-frequent-words) |
@@ -414,4 +418,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Shewe666/DSA/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/Shewe666/DSA/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
