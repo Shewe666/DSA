@@ -14,6 +14,7 @@
  * }
  */
 class Solution {
+    // faster code with o(n) time complexity
     int diameter =0;
     public int diameterOfBinaryTree(TreeNode root) {
         height(root);
