@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Shewe666/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/Shewe666/DSA/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Shewe666/DSA/tree/master/3875-construct-uniform-parity-array-i) |
 ## Array
 |  |
 | ------- |
@@ -211,6 +212,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1470-shuffle-the-array](https://github.com/Shewe666/DSA/tree/master/1470-shuffle-the-array) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Shewe666/DSA/tree/master/3471-find-the-largest-almost-missing-integer) |
+| [3875-construct-uniform-parity-array-i](https://github.com/Shewe666/DSA/tree/master/3875-construct-uniform-parity-array-i) |
 ## Monotonic Stack
 |  |
 | ------- |
