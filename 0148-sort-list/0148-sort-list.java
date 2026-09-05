@@ -10,13 +10,13 @@
  */
 class Solution {
     public ListNode sortList(ListNode head) {
-        ArrayList<Integer> list=new ArrayList<>();
+        java.util.ArrayList<Integer> list=new java.util.ArrayList<>();
         ListNode curr=head;
         while(curr!=null){
             list.add(curr.val);
             curr=curr.next;
         }
-        Collections.sort(list);
+        java.util.Collections.sort(list);
         curr=head;
         int i=0;
         while(curr!=null){
