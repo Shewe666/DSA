@@ -26,11 +26,11 @@ class Solution {
         curr=curr.next;
        }
 
-       if(l1!=null){
-        curr.next=l1;
-       }
-       if(l2!=null){
+       if(l1==null){
         curr.next=l2;
+       }
+       if(l2==null){
+        curr.next=l1;
        }
        return dummy.next;
     }
