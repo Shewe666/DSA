@@ -10,32 +10,32 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        //base case check:
-        if(head==null || head.next== null){
+        if(head==null || head.next==null){
             return head;
         }
-        //first lets calc the length 
-        int len=1;//coz initially at head so it counts to 1
-        ListNode curr=head;
-        while(curr.next!=null){//going till the last element
-        curr=curr.next;
-        len++;
+        ArrayList<Integer> arr=new ArrayList<>();
+        ListNode temp=head;
+        while(temp!=null){
+            arr.add(temp.val);
+            temp=temp.next;
         }
-        k=k%len;
-        if(k==0){ //no rotations
+        int n=arr.size();
+        k=k%n;// k modulo n means the no. of rotation we actually needs to do 
+        if(k==0){
             return head;
         }
-
-        curr.next=head;//now it is a circular linked list
-        ListNode newCurr=head;
-        int jumps=len-k;
-        for(int i=1;i<jumps;i++){
-            newCurr=newCurr.next;
+        int[] rotated=new int[n];
+        //main logic:
+        for(int i=0;i<n;i++){
+            rotated[(i+k)%n]=arr.get(i);
         }
-        ListNode newHead=newCurr.next;
-        newCurr.next=null;
-
-        return newHead;
-        
+        temp=head;
+        int index=0;
+        while(temp!=null){
+            temp.val=rotated[index];
+            index++;
+            temp=temp.next;
+        }
+        return head;
     }
 }
