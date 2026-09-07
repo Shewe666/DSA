@@ -157,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/Shewe666/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/Shewe666/DSA/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/Shewe666/DSA/tree/master/0443-string-compression) |
+| [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
 | [0692-top-k-frequent-words](https://github.com/Shewe666/DSA/tree/master/0692-top-k-frequent-words) |
 | [0844-backspace-string-compare](https://github.com/Shewe666/DSA/tree/master/0844-backspace-string-compare) |
 | [0856-score-of-parentheses](https://github.com/Shewe666/DSA/tree/master/0856-score-of-parentheses) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String Matching
 |  |
 | ------- |
+| [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/Shewe666/DSA/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
 |  |
@@ -477,4 +479,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Shewe666/DSA/tree/master/0200-number-of-islands) |
+## Z Algorithm
+|  |
+| ------- |
+| [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
 <!---LeetCode Topics End-->
