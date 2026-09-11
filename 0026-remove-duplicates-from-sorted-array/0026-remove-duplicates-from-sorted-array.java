@@ -3,7 +3,7 @@ class Solution {
      int slow =0;
     for( int fast=1;fast<nums.length;fast++){
         if(nums[slow]!=nums[fast]){
-            slow++;
+        ++slow;
             nums[slow]=nums[fast];
         }
     }
