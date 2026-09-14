@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Shewe666/DSA/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/Shewe666/DSA/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Shewe666/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/Shewe666/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shewe666/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0443-string-compression](https://github.com/Shewe666/DSA/tree/master/0443-string-compression) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0043-multiply-strings](https://github.com/Shewe666/DSA/tree/master/0043-multiply-strings) |
 | [0070-climbing-stairs](https://github.com/Shewe666/DSA/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/Shewe666/DSA/tree/master/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Shewe666/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Shewe666/DSA/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/Shewe666/DSA/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Shewe666/DSA/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Shewe666/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Shewe666/DSA/tree/master/0217-contains-duplicate) |
