@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Shewe666/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/Shewe666/DSA/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/Shewe666/DSA/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Shewe666/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0443-string-compression](https://github.com/Shewe666/DSA/tree/master/0443-string-compression) |
 | [0844-backspace-string-compare](https://github.com/Shewe666/DSA/tree/master/0844-backspace-string-compare) |
@@ -216,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Shewe666/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/Shewe666/DSA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Shewe666/DSA/tree/master/0229-majority-element-ii) |
+| [0283-move-zeroes](https://github.com/Shewe666/DSA/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/Shewe666/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0485-max-consecutive-ones](https://github.com/Shewe666/DSA/tree/master/0485-max-consecutive-ones) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
