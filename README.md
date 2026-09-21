@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Shewe666/DSA/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Shewe666/DSA/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/Shewe666/DSA/tree/master/0043-multiply-strings) |
+| [0048-rotate-image](https://github.com/Shewe666/DSA/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/Shewe666/DSA/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Shewe666/DSA/tree/master/0189-rotate-array) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Shewe666/DSA/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Shewe666/DSA/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Shewe666/DSA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0048-rotate-image](https://github.com/Shewe666/DSA/tree/master/0048-rotate-image) |
 | [0088-merge-sorted-array](https://github.com/Shewe666/DSA/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Shewe666/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -516,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Shewe666/DSA/tree/master/0048-rotate-image) |
 | [0200-number-of-islands](https://github.com/Shewe666/DSA/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/Shewe666/DSA/tree/master/0733-flood-fill) |
 ## Z Algorithm
