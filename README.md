@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Shewe666/DSA/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Shewe666/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Shewe666/DSA/tree/master/0739-daily-temperatures) |
+| [0875-koko-eating-bananas](https://github.com/Shewe666/DSA/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -470,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Shewe666/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Shewe666/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/Shewe666/DSA/tree/master/0222-count-complete-tree-nodes) |
+| [0875-koko-eating-bananas](https://github.com/Shewe666/DSA/tree/master/0875-koko-eating-bananas) |
 ## Binary Search Tree
 |  |
 | ------- |
