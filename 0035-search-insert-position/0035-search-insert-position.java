@@ -1,11 +1,21 @@
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        //Linear search / brute force
-      for( int i =0;i<nums.length;i++){
-        if(nums[i]>=target){
-            return i;
+        int n = nums.length;
+        int left =0;
+        int right =n-1;
+        while(left<=right){
+            int mid = (left+right)/2;
+            if(target == nums[mid]){
+                return mid;
+            }
+            if(target>nums[mid]){
+                left = mid+1;
+                
+            }
+            else{
+                right = mid -1;
+            }
         }
-      }
-      return nums.length;
+        return left;
     }
 }
