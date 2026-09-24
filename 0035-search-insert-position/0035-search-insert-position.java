@@ -1,5 +1,6 @@
 class Solution {
     public int searchInsert(int[] nums, int target) {
+        //binary searching
         int n = nums.length;
         int left =0;
         int right =n-1;
