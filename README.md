@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/Shewe666/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0645-set-mismatch](https://github.com/Shewe666/DSA/tree/master/0645-set-mismatch) |
 | [0692-top-k-frequent-words](https://github.com/Shewe666/DSA/tree/master/0692-top-k-frequent-words) |
+| [0704-binary-search](https://github.com/Shewe666/DSA/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/Shewe666/DSA/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/Shewe666/DSA/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Shewe666/DSA/tree/master/0735-asteroid-collision) |
@@ -471,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Shewe666/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Shewe666/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/Shewe666/DSA/tree/master/0222-count-complete-tree-nodes) |
+| [0704-binary-search](https://github.com/Shewe666/DSA/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Shewe666/DSA/tree/master/0875-koko-eating-bananas) |
 ## Binary Search Tree
 |  |
