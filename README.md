@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Shewe666/DSA/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/Shewe666/DSA/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/Shewe666/DSA/tree/master/0048-rotate-image) |
+| [0069-sqrtx](https://github.com/Shewe666/DSA/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Shewe666/DSA/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Shewe666/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Shewe666/DSA/tree/master/0189-rotate-array) |
@@ -469,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/Shewe666/DSA/tree/master/0069-sqrtx) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Shewe666/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Shewe666/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/Shewe666/DSA/tree/master/0222-count-complete-tree-nodes) |
@@ -540,4 +542,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Shewe666/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Shewe666/DSA/tree/master/0724-find-pivot-index) |
 | [1991-find-the-middle-index-in-array](https://github.com/Shewe666/DSA/tree/master/1991-find-the-middle-index-in-array) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Shewe666/DSA/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
