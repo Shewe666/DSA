@@ -16,11 +16,9 @@ class Solution {
         }
         Arrays.sort(arr);
       
-           if (newlen % 2 != 0) {
-            // Odd length: return the middle element
+           if (newlen % 2 != 0) { //odd len 
             return arr[newlen/ 2];
-        } else {
-            // Even length: return the average of the two middle elements
+        } else {//even len 
             return (arr[newlen / 2 - 1] + arr[newlen / 2]) / 2.0;
         }
     }
