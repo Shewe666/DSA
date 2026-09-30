@@ -1,11 +1,10 @@
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
-        String repeat =s+s;
-        repeat = repeat.substring(1,repeat.length()-1);
-        if(repeat.contains(s)){
-            return true;
-        }
+       String repeated = s+s; //string concatention..
+       repeated = repeated.substring(1,repeated.length()-1);
+       if(repeated.contains(s)){
+        return true;
+       }
         return false;
-        
     }
 }
