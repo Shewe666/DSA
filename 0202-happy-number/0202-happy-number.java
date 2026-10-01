@@ -1,5 +1,7 @@
 class Solution {
     public boolean isHappy(int n) {
+
+        //approach ->hashset+cycle detectiom
        HashSet<Integer> set = new HashSet<>(); //here if we use while(n>0) it might give us tle it will stuck in an infinite loop
        while(!set.contains(n)){
         set.add(n);
