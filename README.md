@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Shewe666/DSA/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/Shewe666/DSA/tree/master/0143-reorder-list) |
 | [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
+| [0231-power-of-two](https://github.com/Shewe666/DSA/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/Shewe666/DSA/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Shewe666/DSA/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Shewe666/DSA/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Shewe666/DSA/tree/master/0202-happy-number) |
 | [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
+| [0231-power-of-two](https://github.com/Shewe666/DSA/tree/master/0231-power-of-two) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Shewe666/DSA/tree/master/0509-fibonacci-number) |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/Shewe666/DSA/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/Shewe666/DSA/tree/master/0231-power-of-two) |
 | [0645-set-mismatch](https://github.com/Shewe666/DSA/tree/master/0645-set-mismatch) |
 ## Trie
 |  |
