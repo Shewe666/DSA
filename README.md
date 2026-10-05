@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Shewe666/DSA/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Shewe666/DSA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Shewe666/DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
+| [1392-longest-happy-prefix](https://github.com/Shewe666/DSA/tree/master/1392-longest-happy-prefix) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Shewe666/DSA/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1544-make-the-string-great](https://github.com/Shewe666/DSA/tree/master/1544-make-the-string-great) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Shewe666/DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -485,10 +486,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Shewe666/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
 | [0572-subtree-of-another-tree](https://github.com/Shewe666/DSA/tree/master/0572-subtree-of-another-tree) |
+| [1392-longest-happy-prefix](https://github.com/Shewe666/DSA/tree/master/1392-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Shewe666/DSA/tree/master/0572-subtree-of-another-tree) |
+| [1392-longest-happy-prefix](https://github.com/Shewe666/DSA/tree/master/1392-longest-happy-prefix) |
 ## Binary Lifting
 |  |
 | ------- |
@@ -569,11 +572,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Shewe666/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
+| [1392-longest-happy-prefix](https://github.com/Shewe666/DSA/tree/master/1392-longest-happy-prefix) |
 ## Knuth–Morris–Pratt Algorithm
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Shewe666/DSA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
+| [1392-longest-happy-prefix](https://github.com/Shewe666/DSA/tree/master/1392-longest-happy-prefix) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -594,4 +599,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/Shewe666/DSA/tree/master/0202-happy-number) |
+## Rolling Hash
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/Shewe666/DSA/tree/master/1392-longest-happy-prefix) |
 <!---LeetCode Topics End-->
