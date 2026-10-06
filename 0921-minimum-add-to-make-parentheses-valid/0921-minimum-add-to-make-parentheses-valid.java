@@ -1,19 +1,20 @@
 class Solution {
     public int minAddToMakeValid(String s) {
-        Stack<Character> st = new Stack<>();
-        for( char ch : s.toCharArray()){
+        int open =0;
+        int close =0;
+        for ( char ch : s.toCharArray()){
             if(ch =='('){
-                st.push(ch);
+                open++;
             }
-            else{
-                if(!st.isEmpty() && st.peek()=='('){
-                    st.pop();
+            else if(ch ==')'){
+                if(open>0){
+                    open--;
                 }
                 else{
-                    st.push(ch);
+                close++;
                 }
             }
         }
-        return st.size();
+        return open+close;
     }
 }
