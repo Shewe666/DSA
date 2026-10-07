@@ -11,11 +11,11 @@ class Solution {
         while(left<=right){
             int mid = left+(right - left)/2;
             if(nums[mid]==target){
-                 ans =mid;
-                right = mid-1; 
+                ans =mid;
+                right = mid-1; //going towards the left side for the first occurence 
             }
             else if(nums[mid]<target){
-                left=mid+1;
+                left=mid+1; 
             }
             else{
                 right = mid-1;
@@ -31,7 +31,7 @@ class Solution {
             int mid = left+(right - left)/2;
             if(nums[mid]==target){
                 ans =mid;
-                left= mid+1; 
+                left= mid+1; //going to check towards the right side for the last occurence 
             }
             else if(nums[mid]<target){
                 left=mid+1;
