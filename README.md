@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Shewe666/DSA/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
 | [0905-sort-array-by-parity](https://github.com/Shewe666/DSA/tree/master/0905-sort-array-by-parity) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Shewe666/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/Shewe666/DSA/tree/master/1470-shuffle-the-array) |
@@ -523,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Shewe666/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0704-binary-search](https://github.com/Shewe666/DSA/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Shewe666/DSA/tree/master/0875-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Shewe666/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 ## Binary Search Tree
 |  |
 | ------- |
