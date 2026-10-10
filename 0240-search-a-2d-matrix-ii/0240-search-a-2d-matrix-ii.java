@@ -2,18 +2,18 @@ class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length;
         int n = matrix[0].length;
-        int r = 0;
-        int c = n-1; //coz we need to start from the last element of each row..
+        int r = m-1;
+        int c = 0; //coz we need to start from the last element of each row..
         
-        while(r<m && c>=0){
+        while(r>=0 && c<n){
             if(matrix[r][c]==target){
                 return true;
             }
             else if(matrix[r][c]>target){
-                c=c-1;
+                r=r-1;
             }
             else{
-                r=r+1;
+                c=c+1;
             }
         }
         return false;
