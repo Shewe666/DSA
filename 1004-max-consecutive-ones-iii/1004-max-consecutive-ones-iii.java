@@ -1,6 +1,5 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
-        //better approach o(2n) .. left and rught pointer both in the worst case will travel n length and no ne will come back again 
         int left =0;
         int zeroCount = 0;
         int maxlength =0;
