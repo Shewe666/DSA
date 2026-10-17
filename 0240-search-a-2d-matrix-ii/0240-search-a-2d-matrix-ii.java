@@ -1,20 +1,19 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        //STAIR CASE APPROACH 
-        //there will be only 2 valid indexes to start top right and bottom left [here is the bottom solution]
         int m = matrix.length;
         int n = matrix[0].length;
-        int r = m-1;
-        int c = 0;
-        while(r>=0 && c<n){
+        int r = 0;
+        int c = n-1; 
+        
+        while(r<m && c>=0){
             if(matrix[r][c]==target){
                 return true;
             }
             else if(matrix[r][c]>target){
-                r=r-1;
+                c=c-1;
             }
             else{
-                c=c+1;
+                r=r+1;
             }
         }
         return false;
