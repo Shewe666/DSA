@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/Shewe666/DSA/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Shewe666/DSA/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/Shewe666/DSA/tree/master/0877-stone-game) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shewe666/DSA/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
 | [2235-add-two-integers](https://github.com/Shewe666/DSA/tree/master/2235-add-two-integers) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/Shewe666/DSA/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/Shewe666/DSA/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/Shewe666/DSA/tree/master/0231-power-of-two) |
 | [0645-set-mismatch](https://github.com/Shewe666/DSA/tree/master/0645-set-mismatch) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Shewe666/DSA/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 ## Trie
 |  |
 | ------- |
