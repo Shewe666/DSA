@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/Shewe666/DSA/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Shewe666/DSA/tree/master/0387-first-unique-character-in-a-string) |
 | [0394-decode-string](https://github.com/Shewe666/DSA/tree/master/0394-decode-string) |
+| [0412-fizz-buzz](https://github.com/Shewe666/DSA/tree/master/0412-fizz-buzz) |
 | [0443-string-compression](https://github.com/Shewe666/DSA/tree/master/0443-string-compression) |
 | [0459-repeated-substring-pattern](https://github.com/Shewe666/DSA/tree/master/0459-repeated-substring-pattern) |
 | [0692-top-k-frequent-words](https://github.com/Shewe666/DSA/tree/master/0692-top-k-frequent-words) |
@@ -215,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Shewe666/DSA/tree/master/0202-happy-number) |
 | [0224-basic-calculator](https://github.com/Shewe666/DSA/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/Shewe666/DSA/tree/master/0231-power-of-two) |
+| [0412-fizz-buzz](https://github.com/Shewe666/DSA/tree/master/0412-fizz-buzz) |
 | [0445-add-two-numbers-ii](https://github.com/Shewe666/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0486-predict-the-winner](https://github.com/Shewe666/DSA/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/Shewe666/DSA/tree/master/0509-fibonacci-number) |
@@ -337,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/Shewe666/DSA/tree/master/0043-multiply-strings) |
+| [0412-fizz-buzz](https://github.com/Shewe666/DSA/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/Shewe666/DSA/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/Shewe666/DSA/tree/master/0844-backspace-string-compare) |
 | [1929-concatenation-of-array](https://github.com/Shewe666/DSA/tree/master/1929-concatenation-of-array) |
