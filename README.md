@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Shewe666/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Shewe666/DSA/tree/master/1710-maximum-units-on-a-truck) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/Shewe666/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2285-maximum-total-importance-of-roads](https://github.com/Shewe666/DSA/tree/master/2285-maximum-total-importance-of-roads) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Shewe666/DSA/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Merge Sort
@@ -296,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1710-maximum-units-on-a-truck](https://github.com/Shewe666/DSA/tree/master/1710-maximum-units-on-a-truck) |
 | [1929-concatenation-of-array](https://github.com/Shewe666/DSA/tree/master/1929-concatenation-of-array) |
 | [1991-find-the-middle-index-in-array](https://github.com/Shewe666/DSA/tree/master/1991-find-the-middle-index-in-array) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/Shewe666/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/Shewe666/DSA/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/Shewe666/DSA/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3875-construct-uniform-parity-array-i](https://github.com/Shewe666/DSA/tree/master/3875-construct-uniform-parity-array-i) |
@@ -561,6 +563,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Shewe666/DSA/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Shewe666/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Shewe666/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/Shewe666/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Binary Search Tree
 |  |
 | ------- |
