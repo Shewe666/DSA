@@ -297,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1512-number-of-good-pairs](https://github.com/Shewe666/DSA/tree/master/1512-number-of-good-pairs) |
 | [1672-richest-customer-wealth](https://github.com/Shewe666/DSA/tree/master/1672-richest-customer-wealth) |
 | [1710-maximum-units-on-a-truck](https://github.com/Shewe666/DSA/tree/master/1710-maximum-units-on-a-truck) |
+| [1920-build-array-from-permutation](https://github.com/Shewe666/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Shewe666/DSA/tree/master/1929-concatenation-of-array) |
 | [1991-find-the-middle-index-in-array](https://github.com/Shewe666/DSA/tree/master/1991-find-the-middle-index-in-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Shewe666/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/Shewe666/DSA/tree/master/0412-fizz-buzz) |
 | [0735-asteroid-collision](https://github.com/Shewe666/DSA/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/Shewe666/DSA/tree/master/0844-backspace-string-compare) |
+| [1920-build-array-from-permutation](https://github.com/Shewe666/DSA/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Shewe666/DSA/tree/master/1929-concatenation-of-array) |
 | [2696-minimum-string-length-after-removing-substrings](https://github.com/Shewe666/DSA/tree/master/2696-minimum-string-length-after-removing-substrings) |
 | [3498-reverse-degree-of-a-string](https://github.com/Shewe666/DSA/tree/master/3498-reverse-degree-of-a-string) |
