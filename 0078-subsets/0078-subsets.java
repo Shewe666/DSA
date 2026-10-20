@@ -1,29 +1,20 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>>res = new ArrayList<>();
-        List<Integer> current= new ArrayList<>();
-        subsequences(0,nums,current,res);
+        List<List<Integer>> res= new ArrayList<>();
+        List<Integer> current = new ArrayList<>();
+        subsequences(0,res,current,nums);
         return res;
     }
-    private void subsequences(int index, int nums[], List<Integer> current, List<List<Integer>> res){
-        //base case
-        if(index == nums.length){
-            res.add(new ArrayList<>(current));
-            return;
+    public void subsequences(int index, List<List<Integer>> res, List<Integer> current , int[]nums){
+        //base case:
+        if(index==nums.length){
+            res.add(new ArrayList<>(current)); //saving the copy of current list 
+            return; //returns to the previous function call..
         }
-
-        //include
         current.add(nums[index]);
+        subsequences(index+1,res,current,nums);
 
-        //pick
-        subsequences(index+1, nums, current, res);
-
-        //remove
-        current.remove(current.size()-1);
-
-        //no pick
-        subsequences(index+1, nums, current, res);
-    
-
+        current.remove(current.size()-1); //removing the last index ..
+        subsequences(index+1, res, current, nums);
     }
 }
