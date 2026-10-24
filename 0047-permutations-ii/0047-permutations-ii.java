@@ -8,6 +8,7 @@ class Solution {
        return res;
     }
     private void permutations(List<List<Integer>> res, List<Integer> curr, boolean seen[] ,int[]nums){
+        //here we are using the boolean array coz we need to access the indexes because dupplicate values are allowed ..
         if(curr.size()==nums.length){
             res.add(new ArrayList<>(curr));
             return;
