@@ -14,6 +14,7 @@ class Solution {
         }
         for(int i =0;i<nums.length;i++){
             if(seen[i]) continue;
+            // Without i>0, when i = 0, we'd try to access nums[-1] and get an ArrayIndexOutOfBoundsException.
             if(i>0 &&nums[i-1]==nums[i] && !seen[i-1]) continue;
             seen[i]=true;
             curr.add(nums[i]);
