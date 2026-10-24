@@ -11,20 +11,20 @@ class Solution {
         map.put('9' , "wxyz");
         List<String> res = new ArrayList<>();
         String curr = "";
-        backTrack(0, res, curr, map,digits);
+        backTrack(0, res, new StringBuilder(""), map,digits);
         return res;
     }
-    private void backTrack(int index, List<String> res, String curr,HashMap<Character, String> map,String digits){
+    private void backTrack(int index, List<String> res, StringBuilder curr,HashMap<Character, String> map,String digits){
         if(index == digits.length()){
-            res.add(curr);
+            res.add(curr.toString());
             return;
         }
         char digit = digits.charAt(index);
         String letters = map.get(digit);
         for(int i =0; i < letters.length();i++){
-            curr+=letters.charAt(i); //include 
+            curr.append(letters.charAt(i)); //include 
             backTrack(index+1, res, curr, map, digits);
-            curr = curr.substring(0,curr.length()-1); //remove the last letter and back track "ad"-> curr->"a"; 
+            curr.deleteCharAt(curr.length()-1); //remove the last letter and back track "ad"-> curr->"a"; 
         }
 
 
