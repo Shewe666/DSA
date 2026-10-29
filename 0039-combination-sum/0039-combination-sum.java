@@ -13,12 +13,14 @@ class Solution {
         if(index == candidates.length){
             return;
         }
+        //pick
         if(candidates[index]<=target){
             curr.add(candidates[index]);
             combinations(index,res,curr,candidates,target-candidates[index]);
             //backtrack 
             curr.remove(curr.size()-1);
         }
+        //nopick
         combinations(index+1,res,curr,candidates,target);
     }
 }
