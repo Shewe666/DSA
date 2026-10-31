@@ -23,7 +23,7 @@ class Solution {
         }
         else{
             return root;
-        }
+        } 
     }
 
 } 
