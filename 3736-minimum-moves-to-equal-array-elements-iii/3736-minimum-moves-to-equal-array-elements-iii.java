@@ -4,13 +4,10 @@ class Solution {
         for(int i =0;i<nums.length;i++){
             max=Math.max(nums[i],max);
         }
-        int count=0;
+        int moves=0;
         for(int i =0;i<nums.length;i++){
-            while(nums[i]!=max){
-                nums[i]+=1;
-                count++;
-            }
+            moves+=max-nums[i];
         }
-        return count;
+        return moves;
     }
 }
