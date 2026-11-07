@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/Shewe666/DSA/tree/master/0443-string-compression) |
 | [0844-backspace-string-compare](https://github.com/Shewe666/DSA/tree/master/0844-backspace-string-compare) |
 | [0905-sort-array-by-parity](https://github.com/Shewe666/DSA/tree/master/0905-sort-array-by-parity) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Shewe666/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/Shewe666/DSA/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Stack
 |  |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-sort-array-by-parity](https://github.com/Shewe666/DSA/tree/master/0905-sort-array-by-parity) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Shewe666/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Shewe666/DSA/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Shewe666/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1710-maximum-units-on-a-truck](https://github.com/Shewe666/DSA/tree/master/1710-maximum-units-on-a-truck) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Shewe666/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -312,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Shewe666/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1019-next-greater-node-in-linked-list](https://github.com/Shewe666/DSA/tree/master/1019-next-greater-node-in-linked-list) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Shewe666/DSA/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Shewe666/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/Shewe666/DSA/tree/master/1431-kids-with-the-greatest-number-of-candies) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Shewe666/DSA/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/Shewe666/DSA/tree/master/1470-shuffle-the-array) |
@@ -599,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/Shewe666/DSA/tree/master/0875-koko-eating-bananas) |
 | [1004-max-consecutive-ones-iii](https://github.com/Shewe666/DSA/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Shewe666/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1385-find-the-distance-value-between-two-arrays](https://github.com/Shewe666/DSA/tree/master/1385-find-the-distance-value-between-two-arrays) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Shewe666/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Binary Search Tree
 |  |
