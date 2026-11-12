@@ -1,45 +1,55 @@
 class Solution {
-    List<List<String>> res = new ArrayList<>();
+    
     public List<List<String>> solveNQueens(int n) {
-        char[][] board = new char[n][n];
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(board[i], '.');
+        char board[][] = new char[n][n];
+        for(int i =0;i<board.length;i++){
+            Arrays.fill(board[i],'.');
         }
-        generate(board, 0);
+        List<List<String>> res = new ArrayList<>();
+        backTrack(board,0,res);
         return res;
     }
-    public void generate(char[][] board, int row) {
-        if (row == board.length) {
-            List<String> list = new ArrayList<>();
-            for (int i = 0; i < board.length; i++) {
-                list.add(new String(board[i]));
-            }
-            res.add(list);
+    private void backTrack(char[][] board,int col,List<List<String>> res){
+        int n = board.length;
+        //base case:
+        if(col==n){
+            constructRes(board,res);
             return;
         }
-        for (int col = 0; col < board[row].length; col++) {
-            if (isSafe(board, row, col)) {
-                board[row][col] = 'Q';
-                generate(board, row + 1);
-                board[row][col] = '.'; 
+        for(int row =0;row<n;row++){
+            if(isSafe(board, row, col)){
+                board[row][col]='Q';
+                backTrack(board,col+1,res);
+                board[row][col]='.';
             }
         }
     }
-    public boolean isSafe(char[][] board, int row, int col) {
-        //top row
-        for (int i = 0; i < row; i++) {
-            if (board[i][col] == 'Q') return false;
-        }
-        //left diagonal
-        // This approach is standard, you can remember this
-        int maxLeft=Math.min(row,col);
-        for(int i=1;i<=maxLeft;i++){
-            if(board[row-i][col-i]=='Q') return false;
-        }
-        int maxRight=Math.min(row,board.length-1-col);
-        for(int i=1;i<=maxRight;i++){
-            if(board[row-i][col+i]=='Q') return false;
+    private boolean isSafe(char [][] board, int row , int col){
+        int n = board.length;
+        for(int k =1;k<=col;k++){
+            int c = col-k;
+            //upper diagnol
+            int r = row-k;
+            if(r>=0){
+                if(board[r][c]=='Q')return false;
+            }
+            //lower diagnol
+            r= row+k;
+            if(r<n){
+                if(board[r][c]=='Q')return false;
+            }
+            //same row;
+            if(board[row][c]=='Q') return false;
         }
         return true;
+    }
+    private void constructRes(char board[][], List<List<String>> res){
+        int n = board.length;
+        List<String> curr = new ArrayList<>();
+        for(int i =0;i<n ;i++){
+            String s = new String(board[i]);
+            curr.add(s);
+        }
+        res.add(curr);
     }
 }
