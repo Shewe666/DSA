@@ -1,44 +1,42 @@
-
 class Solution {
-
     public void solveSudoku(char[][] board) {
-        solve(board);
-    }
 
-    private boolean solve(char[][] board) {
-        for (int row = 0; row < 9; row++) {
-            for (int col = 0; col < 9; col++) {
-                if (board[row][col] == '.') {
-                    for (char ch = '1'; ch <= '9'; ch++) {
-                        if (isSafe(board, row, col, ch)) {
-                            board[row][col] = ch;
-                            if (solve(board)) {
-                                return true;
-                            }
-                            board[row][col] = '.';
-                        }
-                    }
-                    return false;
+        backtrack(board, 0, 0);
+    }
+    public boolean backtrack( char[][]board , int row, int col){
+        if(col== 9){
+            row=row+1;
+            col=0;
+        }
+        if(row==9){
+            return true;
+        }
+        if(board[row][col]!='.'){
+           return backtrack(board, row, col+1);
+        }
+        for(int d =1;d<=9;d++){
+            char digit= (char)(d+'0');
+            if(placementPossible(digit,row,col,board)){
+                board[row][col]=digit;
+                if(backtrack(board, row,col)){
+                    return true;
                 }
+                board[row][col]='.';
             }
         }
-        return true;
+        return false;
     }
-    private boolean isSafe(char[][] board, int row, int col, char ch) {
-        for (int i = 0; i < 9; i++) {
-            if (board[row][i] == ch) {
-                return false;
-            }
-            if (board[i][col] == ch) {
-                return false;
-            }
-            int boxRow = 3 * (row / 3) + i / 3;
-            int boxCol = 3 * (col / 3) + i % 3;
-            if (board[boxRow][boxCol] == ch) {
-                return false;
-            }
+    private boolean placementPossible(char digit,int row,int col,char[][]board){
+        //current row
+        //current col
+        //grid
+        for(int j =0;j<9;j++){
+            if(board[row][j]==digit) return false;
+            if(board[j][col]==digit)return false;
+            int r = 3*(row/3)+(j/3);
+            int c = 3*(col/3)+(j%3);
+            if(board[r][c]==digit)return false;
         }
-
         return true;
     }
 }
