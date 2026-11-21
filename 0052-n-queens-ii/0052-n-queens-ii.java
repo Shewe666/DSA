@@ -4,22 +4,24 @@ class Solution {
     for(int i =0;i<n;i++){
         Arrays.fill(board[i],'.');
     }
-    return backtrack(board,0);  
+    List<List<String>>res = new ArrayList<>();
+    backtrack(board,0,res);  
+    return res.size();
     }
-    private int backtrack(char [][]board,int col){
+    private void backtrack(char [][]board,int col,List<List<String>>res){
         int n = board.length;
         if(col==n){
-            return 1;
+            constructRes(board, res);
+            return;
         }
-        int count =0;
         for(int row = 0;row< n ;row ++){
             if(isSafe(board,row,col)){
                 board[row][col]='Q';
-               count+= backtrack(board,col+1);
+              backtrack(board,col+1,res);
                 board[row][col]='.';
             }
         }
-    return count;
+    
     }
     private boolean isSafe(char[][]board, int row , int col){
         int n = board.length;
@@ -37,5 +39,14 @@ class Solution {
             if(board[row][c]=='Q') return false;
         }
         return true;
+    }
+    private void constructRes(char[][]board, List<List<String>>res){
+        List<String>curr = new ArrayList<>();
+        for(int i =0;i<board.length;i++){
+            String s= new String(board[i]);
+            curr.add(s);
+
+        }
+        res.add(curr);
     }
 }
