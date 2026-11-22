@@ -1,6 +1,6 @@
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
-        //recursion
+        //memoization
         int n = cost.length;
         int dp[] = new int[n+1];
         Arrays.fill(dp,-1);
