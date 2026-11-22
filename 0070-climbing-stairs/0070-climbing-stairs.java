@@ -1,15 +1,20 @@
 class Solution {
     public int climbStairs(int n) {
-        int prev = 1;
-        int prev1 = 2;
+        //Memoization 
+        int [] dp = new int [n+1];
+        Arrays.fill(dp,-1);
+        return recur(dp,n);
+    }
+    private int recur(int[]dp, int n){
+        //base case:
         if(n<=2){
-            return n;
+            dp[n]=n;
+            return dp[n];
         }
-        for(int i =3; i<=n; i++){
-            int temp = prev + prev1;
-            prev = prev1;
-            prev1= temp;
+        if(dp[n]!=-1){
+            return dp[n];
         }
-        return prev1;
+        dp[n]=recur(dp,n-1)+ recur(dp,n-2);
+        return dp[n];
     }
 }
