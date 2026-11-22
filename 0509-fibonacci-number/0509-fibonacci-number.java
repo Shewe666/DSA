@@ -1,17 +1,17 @@
 class Solution {
     public int fib(int n) {
-        //TABULATION
+        //o(n-tc, o(1)-sc) without dp array
         if(n<=1){
             return n;
         }
-        int dp[] = new int[n+1];
-        //base case
-        dp[0]=0;
-        dp[1]=1;
-        for(int state=2;state<=n;state++){
-            dp[state]=dp[state-1]+dp[state-2];
+        int prev2=0;
+        int prev1=1;
+        int ans=0;
+        for(int i=2;i<=n;i++){
+            ans = prev1+prev2;
+            prev2=prev1;
+            prev1=ans;
         }
-        return dp[n];
-
+        return ans;
     }
 }
