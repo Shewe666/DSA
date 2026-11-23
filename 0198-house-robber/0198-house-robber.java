@@ -1,28 +1,15 @@
 class Solution { 
     public int rob(int[] nums) {
-        //top-down memoization
-        int []dp= new int[nums.length];
-        Arrays.fill(dp,-1);
-        return recur(nums,nums.length-1,dp);
-    }
-    public int recur( int[]nums, int index, int[]dp){
-        int n= nums.length;
-        //base case
-        if(index==0){
-            dp[index]=nums[0];
-            return dp[index];
+        // tabulation -bottom up 
+        int n = nums.length;
+        int []dp= new int[n+1];//handling the out of bound case
+        dp[1]=nums[0]; 
+        dp[0]=0; // index == -1 return 0
+       for(int state = 2;state<=n;state++){
+            int pick=nums[state-1]+dp[state-2];
+            int noPick = 0+dp[state-1];
+            dp[state]=Math.max(pick,noPick);
         }
-        if(index ==-1){
-            //out of bound condition
-            return 0;
-        }
-        if(dp[index]!=-1){
-            return dp[index];
-        }
-        //pick no pick 
-        int pick= nums[index]+recur(nums,index-2,dp);
-        int noPick= 0+recur(nums,index-1,dp);
-        dp[index]= Math.max(pick,noPick);
-        return dp[index];
+        return dp[n];
     }
 }
