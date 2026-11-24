@@ -23,7 +23,6 @@ class Solution {
         return Math.max(rob1(nums1),rob1(nums2));
     
 }
-
 private int rob1(int[]nums){
     if(nums.length==1){
         return nums[0];
